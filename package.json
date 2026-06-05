@@ -1,0 +1,21 @@
+{
+  "name": "xiaohs-cli",
+  "version": "1.0.0",
+  "description": "小红书 CLI - 搜索、采集、发布笔记",
+  "main": "src/index.js",
+  "bin": {
+    "xiaohs": "bin/xiaohs.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/xiaohs.js"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
