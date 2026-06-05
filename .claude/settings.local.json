@@ -4,7 +4,8 @@
       "Bash(node src/index.js collect-lark 运动鞋 --limit 1 --dry-run)",
       "Bash(node src/index.js collect-lark 运动鞋 --limit 1)",
       "Bash(node -e \"const fd = new FormData\\(\\); fd.append\\('file_name','test.jpg'\\); fd.append\\('parent_type','bitable_attachment'\\); fd.append\\('parent_token','xxx'\\); fd.append\\('size','100'\\); fd.append\\('mime_type','image/jpeg'\\); console.log\\([...fd.entries\\(\\)]\\);\")",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(gh auth *)"
     ]
   }
 }
